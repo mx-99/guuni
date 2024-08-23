@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: goldenrod;
+}
+
+
+
+#board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100em;
+    height: 100em;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pawns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wsquare, .bsquare {
+    width: 5em;
+    height: 5.5em;
+}
+img{
+    width: 4.1em;
+    height: 4.1em;
+}
+
+.bsquare {
+    background-color: #b58863;
+}
+.wsquare{
+    background-color: #fff;
+}
+
+.fileLetter, .rankNumber {
+    color: rgb(47, 0, 156);
+    font-size: 15px;
+    font-weight: 900;
+    display: block;
+    width: 2em;
+    height: 0%;
+    margin: 1px;
+}
+
+
